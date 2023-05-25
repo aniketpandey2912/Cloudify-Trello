@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+#form {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+  width: 20%;
+  padding: 20px;
+  margin: auto;
+}
+
+#form div {
+  width: 100%;
+}
+
+#form input {
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#form #button {
+  margin-block: 10px;
+}
+#form #button > input {
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+}

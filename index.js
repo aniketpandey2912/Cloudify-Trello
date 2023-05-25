@@ -15,9 +15,11 @@ form.addEventListener("submit", (e) => {
   addData(query);
 });
 
+// "http://localhost:3001/formdata"
 let addData = async (data) => {
+  let url = "https://upset-robe-colt.cyclic.app/formdata";
   try {
-    let res = await fetch("http://localhost:3001/formdata", {
+    let res = await fetch(url, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
